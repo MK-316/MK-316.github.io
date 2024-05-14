@@ -11,22 +11,32 @@
         font-family: Arial, sans-serif;
         color: #333;
         background-color: white;
+        height: 100%;
+        overflow: hidden; /* Disables scrolling on the body directly */
     }
     .sidebar {
         position: fixed;
         left: 0;
         top: 0;
-        bottom: 0;
         width: 250px;
+        height: 100%;
         background-color: #f4f4f4;
         padding: 20px;
-        overflow-y: auto;
+        overflow-y: auto; /* Enables scrolling within the sidebar */
+        box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Adds a subtle shadow to differentiate from the content */
     }
     .content {
-        margin-left: 250px;
+        margin-left: 250px; /* Same width as the sidebar */
         padding: 20px;
-        overflow-y: scroll;
-        height: 100vh;
+        overflow-y: auto; /* Enables scrolling within the content area */
+        height: 100vh; /* Full viewport height */
+    }
+    a {
+        color: #333; /* Dark gray for links */
+        text-decoration: none; /* No underline */
+    }
+    a:hover {
+        text-decoration: underline; /* Underline on hover for better usability */
     }
 </style>
 </head>
