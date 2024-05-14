@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Homepage</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        color: #333;
+        background-color: white;
+    }
+    .sidebar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 250px;
+        background-color: #f4f4f4;
+        padding: 20px;
+        overflow-y: auto;
+    }
+    .content {
+        margin-left: 250px;
+        padding: 20px;
+        overflow-y: scroll;
+        height: 100vh;
+    }
+</style>
+</head>
+<body>
+<div class="sidebar">
+    <h1>Menu</h1>
+    <ul>
+        <li><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+        <li><a href="#section4">Section 4</a></li>
+    </ul>
+</div>
+<div class="content">
+    <h2 id="section1">Section 1</h2>
+    <p>This is a content section. Add more content here.</p>
+    <h2 id="section2">Section 2</h2>
+    <p>This is another content section. Add more content here.</p>
+    <h2 id="section3">Section 3</h2>
+    <p>This is another content section. Add more content here.</p>
+    <h2 id="section4">Section 4</h2>
+    <p>This is another content section. Add more content here.</p>
+</div>
+</body>
+</html>
