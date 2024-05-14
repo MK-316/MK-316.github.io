@@ -25,6 +25,13 @@
         overflow-y: auto; /* Enables scrolling within the sidebar */
         box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Adds a subtle shadow to differentiate from the content */
     }
+    #sidebar-image {
+    width: 20%;  /* Makes sure the image fills the width of the sidebar */
+    max-height: 50px; /* Limits the height of the image */
+    object-fit: cover; /* Ensures the image covers the set dimensions without distortion */
+    margin-bottom: 20px; /* Adds some space below the image */
+    }
+
     .content {
         margin-left: 250px; /* Same width as the sidebar */
         padding: 20px;
