@@ -26,9 +26,9 @@
         box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Adds a subtle shadow to differentiate from the content */
     }
     #sidebar-image {
-        width: 80%;  /* Makes sure the image fills the width of the sidebar */
-        max-height: 120px; /* Limits the height of the image */
-        object-fit: cover; /* Ensures the image covers the set dimensions without distortion */
+        width: 100%;  /* Makes sure the image fills the width of the sidebar */
+        height: auto; /* Limits the height of the image */
+        object-fit: contain; /* Ensures the image covers the set dimensions without distortion */
         margin-bottom: 20px; /* Adds some space below the image */
     }
 
@@ -63,7 +63,7 @@
 </head>
 <body>
 <div class="sidebar">
-    <img src="https://github.com/MK-316/MK-316.github.io/raw/main/img/mylogo.png" alt="Profile Picture" id="sidebar-image">
+    <img src="https://github.com/MK-316/MK-316.github.io/raw/main/img/mylogo-high.png" alt="Profile Picture" id="sidebar-image">
     <ul>
         <li><a href="#section1">About</a></li>
         
